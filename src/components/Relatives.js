@@ -1,14 +1,13 @@
 import React from 'react'
 
 function Relatives() {
+  const list=["Rohan Desai","Nitin Jha","Pawan Kumar","Aanil Joshi","Ketan Jadhav"]
   return (
     <div>
         <ul>
-            <li key="relativeListItem1">Rohan Desai</li>
-            <li key="relativeListItem2">Nitin Jha</li>
-            <li key="relativeListItem3">Pawan Kumar</li>
-            <li key="relativeListItem4">Aanil Joshi</li>
-            <li key="relativeListItem5">Ketan Jadhav</li>
+          
+            <li key="relativeListItem1"></li>
+           
         </ul>
     </div>
   )
