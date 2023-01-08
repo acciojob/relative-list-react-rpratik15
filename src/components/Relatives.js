@@ -2,12 +2,15 @@ import React from 'react'
 
 function Relatives() {
   const list=["Rohan Desai","Nitin Jha","Pawan Kumar","Aanil Joshi","Ketan Jadhav"]
+  const listItem=list.map((element,index)=>{
+
+    <li key={`relativeListItem${index}`}>{element}</li>
+
+  })
   return (
     <div>
         <ul>
-          
-            <li key="relativeListItem1"></li>
-           
+          {listItem}
         </ul>
     </div>
   )
