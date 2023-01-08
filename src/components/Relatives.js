@@ -9,9 +9,9 @@ function Relatives() {
   })
   return (
     <div>
-        <ul>
+        <ol>
           {listItem}
-        </ul>
+        </ol>
     </div>
   )
 }
