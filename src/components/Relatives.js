@@ -9,7 +9,7 @@ function Relatives() {
   })
   return (
     <div>
-        <ol>
+        <ol key={'relativeList'}>
           {listItem}
         </ol>
     </div>
